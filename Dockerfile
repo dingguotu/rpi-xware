@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian:wheezy
+FROM resin/rpi-raspbian:stretch
 MAINTAINER tinko <dingguotu@gmail.com>
 
 RUN apt-get update
