@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian
+FROM resin/rpi-raspbian:jessie-20180509
 MAINTAINER tinko <dingguotu@gmail.com>
 
 RUN apt-get update
