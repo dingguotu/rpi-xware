@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian:wheezy-20180509
+FROM resin/rpi-raspbian:wheezy
 MAINTAINER tinko <dingguotu@gmail.com>
 
 RUN apt-get update
