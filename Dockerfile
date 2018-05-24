@@ -1,7 +1,7 @@
-FROM resin/rpi-raspbian:jessie
+FROM resin/rpi-raspbian:stretch
 MAINTAINER tinko <dingguotu@gmail.com>
 
-# RUN apt-get update
+RUN apt-get update
 RUN cd /lib && ln -s ld-linux-armhf.so.3 ld-linux.so.3
 
 WORKDIR /xware
