@@ -1,4 +1,4 @@
-FROM debian:wheezy-slim
+FROM resin/rpi-raspbian
 MAINTAINER tinko <dingguotu@gmail.com>
 
 RUN apt-get update
