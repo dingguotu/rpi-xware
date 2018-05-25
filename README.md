@@ -16,8 +16,7 @@
 docker pull tinko/rpi-xware
 ```
 
-之后，启动它，需要指定一个 volume 挂在到 `/data` ，xware 所有下载的东西会保存到这个 volume 中。否则下载的东西会保存到容器中。
-**注意，`/mnt/Download/`请改成你期望的地址**
+之后，启动它，需要指定一个 volume 挂在到 `/data` ，xware 所有下载的东西会保存到这个 volume 中。否则下载的东西会保存到容器中。**注意，`/mnt/Download/`请改成你期望的地址**
 
 ```bash
 docker run --name xware -v /mnt/Download/:/data -d tinko/rpi-xware
